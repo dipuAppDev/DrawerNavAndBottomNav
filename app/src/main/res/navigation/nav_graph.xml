@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/BMIFragment">
+
+    <fragment
+        android:id="@+id/BMIFragment"
+        android:name="com.example.drawernavandbottomnav.BMIFragment"
+        android:label="fragment_b_m_i"
+        tools:layout="@layout/fragment_b_m_i" />
+    <fragment
+        android:id="@+id/unitFragment"
+        android:name="com.example.drawernavandbottomnav.UnitFragment"
+        android:label="fragment_unit"
+        tools:layout="@layout/fragment_unit" />
+    <fragment
+        android:id="@+id/ageFragment"
+        android:name="com.example.drawernavandbottomnav.AgeFragment"
+        android:label="fragment_age"
+        tools:layout="@layout/fragment_age" />
+    <fragment
+        android:id="@+id/meterToKiloFragment"
+        android:name="com.example.drawernavandbottomnav.MeterToKiloFragment"
+        android:label="fragment_meter_to_kilo"
+        tools:layout="@layout/fragment_meter_to_kilo" />
+    <fragment
+        android:id="@+id/celciusToKelvinFragment"
+        android:name="com.example.drawernavandbottomnav.CelciusToKelvinFragment"
+        android:label="fragment_celcius_to_kelvin"
+        tools:layout="@layout/fragment_celcius_to_kelvin" />
+    <fragment
+        android:id="@+id/meterToFeetFragment"
+        android:name="com.example.drawernavandbottomnav.MeterToFeetFragment"
+        android:label="fragment_meter_to_feet"
+        tools:layout="@layout/fragment_meter_to_feet" />
+    <fragment
+        android:id="@+id/poundsToKgFragment"
+        android:name="com.example.drawernavandbottomnav.PoundsToKgFragment"
+        android:label="fragment_pounds_to_kg"
+        tools:layout="@layout/fragment_pounds_to_kg" />
+    <fragment
+        android:id="@+id/gramToKgFragment"
+        android:name="com.example.drawernavandbottomnav.GramToKgFragment"
+        android:label="fragment_gram_to_kg"
+        tools:layout="@layout/fragment_gram_to_kg" />
+</navigation>

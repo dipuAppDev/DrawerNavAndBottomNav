@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/BMIFragment"
+        android:title="BMI Calculator"
+        android:icon="@drawable/bmi"/>
+    <item
+        android:id="@+id/unitFragment"
+        android:title="Unit Converter"
+        android:icon="@drawable/unit"/>
+    <item
+        android:id="@+id/ageFragment"
+        android:title="Age Converter"
+        android:icon="@drawable/age"/>
+    <item android:id="@+id/theme"
+        android:title="Theme"
+        android:icon="@drawable/theme_icon"
+        >
+        <menu>
+            <item android:title="Dark"
+                android:id="@+id/dark"
+                />
+            <item android:title="Light"
+                android:id="@+id/light"
+                />
+            <item android:title="Orange"
+                android:id="@+id/orange"
+                />
+        </menu>
+    </item>
+    <item android:id="@+id/font"
+        android:title="Fonts"
+        >
+        <menu>
+            <item android:title="san-sarif"
+                android:id="@+id/sanSarif"/>
+            <item android:id="@+id/roboto"
+                android:title="Roboto"/>
+            <item android:id="@+id/poppins"
+                android:title="Poppins"/>
+        </menu>
+    </item>
+    <item android:id="@+id/logout"
+        android:title="Logout"
+        android:icon="@drawable/logout"/>
+
+</menu>
